@@ -1,0 +1,194 @@
+@media (max-width: 767px) {
+
+  .pikapok__category {
+    display: none;
+  }
+
+  .pikapok__mobile-menu {
+    display: inline-block;
+    padding: 15px 25px 0 15px;
+    margin-left: 12px;
+    float: right;
+  }
+
+  .pikapok__header-bg {
+    padding-top: 175px;
+    height: 680px;
+  }
+  .pikapok__contents {
+    padding: 0;
+  }
+
+  .pikapok__content-text .content-text__header,
+  .contact-header {
+    font-size: 44px;
+    letter-spacing: 0.25px;
+  }
+
+  .content-text__header {
+    text-align: center;
+  }
+
+  .pikapok__content-image {
+    width: 100%;
+    display: block;
+  }
+
+  .pikapok__header-bg h1 {
+    font-size: 60px;
+    margin: 0 auto;
+    width: 320px;
+  }
+
+  .pikapok__header-bg h2 {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 240px;
+  }
+
+  .category__texttile, 
+  .category__bag, 
+  .category__accessory, 
+  .category__art {
+    height: 190px;
+    background-position: left center;
+    font-family:"Arial Rounded MT";
+    padding-left: 25px;
+  }
+
+  .category__header {
+    font-size: 24px;
+    width: 100%;
+  }
+
+  .pikapok__round-btn {
+    margin-top: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .pikapok__contact {
+    background-position: left center;
+  }
+
+  .contact-button {
+    margin: 50px auto;
+  }
+
+  .contact-text {
+    font-size: 20px;
+  }
+
+  .pikapok__highlight {
+    background-position: center center;
+  }
+
+  .highlight__content p {
+    margin-bottom: 10px;
+  }
+
+  .highlight__content p,
+  .pikapok__emo {
+    width: 100%;
+  }
+
+  .highlight__socials img,
+   {
+    width: 48px;
+  }
+
+  .footer-column-header {
+    margin-bottom: 5px;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .footer-payment-icon,
+  .footer-service,
+  .footer-about,
+  .footer-social {
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .footer-payment-icon {
+    width: 100%;
+  }
+
+  .footer-payment-icon img {
+    display: inline-block;
+    width: 36px;
+  }
+
+  .footer-payment img:first-child {
+    display: inline-block;
+    width: 36px;
+  }
+
+  .footer-social {
+    padding-bottom: 35px;
+  }
+
+  .pikapok__footer {
+    padding: 0;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .pikapok__mobile-menu {
+    display: none;
+  }
+
+  .pikapok__category {
+    display: none;
+  }
+
+  .pikapok__round-btn {
+    font-size: 14px;
+  }
+
+  .pikapok__content-image {
+    width: 50%;
+  }
+
+  .pikapok__contents {
+    padding: 50px 25px;
+  }
+
+  .highlight__content p {
+    font-size: 26px;
+    width: 640px;
+  }
+
+  .pikapok__content-text .content-text__header {
+    font-size: 36px;
+  }
+
+  .pikapok__content-text .content-text__info {
+    font-size: 16px;
+  }
+
+  .footer-payment .footer-column-header:first-child {
+    text-align: center;
+    width: 150px;
+  }
+
+  .contact-button {
+    font-size: 16px;
+  }
+
+  .footer-column-menu {
+    font-size: 12px;
+  }
+
+  .footer-social {
+    padding-top: 10px;
+  }
+
+  .footer-social-icons {
+    text-align: left;
+  }
+}

@@ -1,0 +1,404 @@
+@font-face{
+  font-family:"Arial Rounded MT Bold";
+  src:url(../font/arial-rounded-mt-bold.ttf);
+}
+
+@font-face{
+  font-family:"Arial Rounded MT";
+  src:url(../font/arial-rounded-mt.ttf);
+}
+
+body {
+  background-color: #f4f8fc;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.page__bold-text {
+  font-family:"Arial Rounded MT Bold";
+}
+
+.page__regular-text {
+  font-family:"Arial Rounded MT";
+}
+
+.pikapok_navbar-top {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.pikapok__brand-logo {
+  max-width: 175px;
+  height: 55px;
+  display: inline-block;
+}
+
+.navbar-top-left {
+  float: left;
+  padding-left: 0px;
+}
+
+.navbar-top-right {
+  float: right;
+  text-align: right;
+}
+
+.pikapok__page-content {
+  position: relative;
+  z-index: 10;
+}
+
+.category-text {
+  font-size: 16px;
+  color: #375881;
+}
+
+.pikapok__category,
+.pikapok__logo {
+  display: inline-block;
+}
+
+.pikapok__logo {
+  float: left;
+}
+
+.pikapok__category {
+  border-right: 1px solid #e7ecf2;
+  height: 55px;
+  padding: 15px;
+  position: relative;
+}
+
+.pikapok__mobile-menu {
+  display: none;
+}
+
+.pikapok__menu_contact,
+.pikapok__menu_languages,
+.pikapok__menu_signin,
+.pikapok__menu_cart {
+  color: #375881;
+  display: inline-block;
+  padding: 15px;
+  border-left: 1px solid #e7ecf2;
+  height: 55px;
+  font-weight: bold;
+}
+
+.pikapok__menu_contact,
+.pikapok__menu_languages,
+.pikapok__menu_signin,
+.pikapok__menu_cart
+  img {
+    display: inline-block;
+  }
+
+  p{
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+    padding-left: 5px;
+  }
+.pikapok__header-bg {
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 800px;
+  text-align: center;
+  padding-top: 200px;
+  font-weight: bold;
+}
+
+.pikapok__header-bg h1 {
+  font-size: 80px;
+}
+
+.pikapok__header-bg h2 {
+  font-size: 30px;
+}
+
+.pikapok__round-btn {
+  color: #fff;
+  background-color: #01afee;
+  border-style: none;
+  border-radius: 40px;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  padding: 20px 32px;
+  margin-top: 55px;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+.pikapok__round-btn:hover {
+  background-color: #019bd3;
+}
+
+.pikapok__contents {
+  color: #375881;
+  padding: 50px 100px;
+}
+
+.pikapok__content-3 {
+  padding-bottom: 100px;
+}
+
+.pikapok__content-2 > .pikapok__content-image {
+  float: right;
+}
+
+.pikapok__content-text .content-text__header {
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.pikapok__content-text .content-text__info {
+  font-size: 24px;
+  display: block;
+}
+
+.pikapok__highlight {
+  background-image: url(../images/background-middle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 100%;
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.highlight__header {
+  padding-top: 30px;
+  padding-bottom: 45px;
+  margin: 0 auto;
+}
+
+.highlight__header p {
+  font-size: 30px;
+  width: 265px;
+}
+
+.pikapok__highlight-logo {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.pikapok__highlight-logo img {
+  width: 180px;
+  height: 60px;
+}
+
+.highlight__content {
+  margin: 0 auto;
+}
+.highlight__content p {
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 0px;
+  width: 620px;
+}
+
+.pikapok__emo p {
+  font-size: 24px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.highlight__footer-text {
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.highlight__socials {
+  text-align: center;
+}
+
+.highlight__socials img {
+  display: inline-block;
+  width: 62px;
+  margin-left: 12px;
+}
+
+.alert_message_box {
+  text-align: center;
+  background: #01afee;
+  color: white;
+}
+
+.alert_message_box p {
+  font-family: "Arial Rounded MT Bold";
+  font-size: 32px;
+  color: FloralWhite ;
+  padding-top: 6px;
+
+  /*padding: 0 10px 0 10px;*/
+}
+
+.pikapok__content-category {
+  color: #fff;
+}
+
+.category__header {
+  font-size: 30px;
+  text-align: left;
+  display: block;
+  text-transform: uppercase;
+  width: 250px;
+}
+
+.category__number {
+  font-size: 16px;
+  text-align: left;
+  display: block;
+  visibility: hidden;
+}
+
+.category__texttile,
+.category__bag,
+.category__accessory,
+.category__art {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 60px;
+  padding-top: 60px;
+}
+
+.category__left,
+.category__right{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.category__texttile {
+  background-image: url(../images/bg-textile.png);
+  height: 595px;
+}
+
+.category__bag {
+  background-image: url(../images/bg-bag.png);
+  height: 300px;
+}
+.category__accessory {
+  background-image: url(../images/bg-accessory.png);
+  height: 300px;
+}
+
+.category__art {
+  background-image: url(../images/bg-art.png);
+  height: 595px;
+}
+
+.pikapok__contact {
+  background-image: url(../images/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  color: #fff;
+  height: 605px;
+}
+
+.contact-details {
+  padding-top: 90px;
+}
+
+.contact-button {
+  color: #375881;
+  display: block;
+  font-size: 18px;
+  width: 185px;
+  height: 55px;
+  border-radius: 40px;
+  background-color: #f2f2f2;
+  padding: 15px 32px;
+  border-style: none;
+  margin-top: 65px;
+  text-transform: uppercase;
+}
+
+.contact-button:hover {
+  background-color: #dddddd;
+}
+
+.contact-header {
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+}
+
+.contact-text {
+  font-size: 24px;
+  max-width: 395px;
+  display: block;
+}
+.marketplace {
+  color: #ff4040;
+  //color: rgba(245,63,76,0.8);
+}
+.pikapok__footer {
+  padding: 60px 85px 50px;
+  color: #375881;
+}
+
+.footer-column-header {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.footer-column-menu {
+  display: block;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.footer-payment-icon {
+  line-height: 28px;
+  width: 150px;
+  text-align: center;
+}
+
+.footer-payment img:first-child {
+  display: block;
+  margin: 0 auto;
+  width: 72px;
+  margin-bottom: 8px;
+}
+
+.footer-payment-icon img {
+  width: 48px;
+  display: inline-block;
+  margin: 5px 7px;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social-logo {
+  width: 178px;
+  height: 55px;
+  margin-bottom: 12px;
+}
+
+.footer-social-icons img {
+  display: inline-block;
+  padding-left: 8px;
+}
+
+.social-icon-facebook {
+  width: 20px;
+}
+
+.social-icon-twitter {
+  width: 35px;
+}
